@@ -15,6 +15,9 @@
 		77FA3A9425B0AE740081A3E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FA3A9225B0AE740081A3E9 /* LaunchScreen.storyboard */; };
 		77FA3AA225B0BCAE0081A3E9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FA3AA125B0BCAE0081A3E9 /* Model.swift */; };
 		77FA3AA525B0C3090081A3E9 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FA3AA425B0C3090081A3E9 /* CustomTableViewCell.swift */; };
+		77FA3AA925B0CD6C0081A3E9 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FA3AA825B0CD6C0081A3E9 /* ContactViewController.swift */; };
+		77FA3AAC25B0CFE80081A3E9 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FA3AAB25B0CFE80081A3E9 /* Contacts.swift */; };
+		77FA3AAF25B0D1E30081A3E9 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FA3AAE25B0D1E30081A3E9 /* ContactTableViewCell.swift */; };
 		DB6A1BE3D05E46624E563A6B /* Pods_jsonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BCFE5F05B874FBCE3B68C5 /* Pods_jsonDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,9 @@
 		77FA3A9525B0AE740081A3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77FA3AA125B0BCAE0081A3E9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		77FA3AA425B0C3090081A3E9 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		77FA3AA825B0CD6C0081A3E9 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		77FA3AAB25B0CFE80081A3E9 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		77FA3AAE25B0D1E30081A3E9 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +77,14 @@
 				77FA3A8925B0AE6F0081A3E9 /* SceneDelegate.swift */,
 				77FA3A8B25B0AE6F0081A3E9 /* ViewController.swift */,
 				77FA3AA425B0C3090081A3E9 /* CustomTableViewCell.swift */,
+				77FA3AA825B0CD6C0081A3E9 /* ContactViewController.swift */,
 				77FA3A8D25B0AE6F0081A3E9 /* Main.storyboard */,
 				77FA3A9025B0AE740081A3E9 /* Assets.xcassets */,
 				77FA3A9225B0AE740081A3E9 /* LaunchScreen.storyboard */,
 				77FA3A9525B0AE740081A3E9 /* Info.plist */,
 				77FA3AA125B0BCAE0081A3E9 /* Model.swift */,
+				77FA3AAB25B0CFE80081A3E9 /* Contacts.swift */,
+				77FA3AAE25B0D1E30081A3E9 /* ContactTableViewCell.swift */,
 			);
 			path = jsonDemo;
 			sourceTree = "<group>";
@@ -215,7 +224,10 @@
 				77FA3AA525B0C3090081A3E9 /* CustomTableViewCell.swift in Sources */,
 				77FA3A8825B0AE6F0081A3E9 /* AppDelegate.swift in Sources */,
 				77FA3A8A25B0AE6F0081A3E9 /* SceneDelegate.swift in Sources */,
+				77FA3AAF25B0D1E30081A3E9 /* ContactTableViewCell.swift in Sources */,
 				77FA3AA225B0BCAE0081A3E9 /* Model.swift in Sources */,
+				77FA3AA925B0CD6C0081A3E9 /* ContactViewController.swift in Sources */,
+				77FA3AAC25B0CFE80081A3E9 /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
