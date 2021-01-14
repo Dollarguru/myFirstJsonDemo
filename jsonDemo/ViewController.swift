@@ -53,6 +53,7 @@ class ViewController: UIViewController {
 }
 extension ViewController : UITableViewDataSource ,UITableViewDelegate
 {
+    //MARK: - Tableview delegate , datasource methods
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return list.count
     }
